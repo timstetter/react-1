@@ -1,163 +1,169 @@
-export const COMMENTS = 
-[
-    {
-        id: 0,
-        campsiteId: 0,
-        rating: 5, 
-        text: "What a magnificent view!",
-        author: "Tinus Lorvaldes",
-        date: "2018-10-25T16:30Z"
-    },
-    {
-        id: 1,
-        campsiteId: 0,
-        rating: 4, 
-        text: "The campground was beautiful, but the bugs could bite sometimes.",
-        author: "Brennen Ech",
-        date: "2017-06-17T03:33Z"
-    },
-    {
-        id: 2,
-        campsiteId: 0,
-        rating: 5, 
-        text: "I caught a world-record-breaking trout here on my last visit.",
-        author: "McKenzie Sebastian",
-        date: "2019-02-18T18:12Z"
-    },
-    {
-        id: 3,
-        campsiteId: 0,
-        rating: 5, 
-        text: "A wonderful place to reconnect with nature.",
-        author: "Jordan Runn",
-        date: "2019-08-04T20:11Z"
-    },
-    {
-        id: 4,
-        campsiteId: 0,
-        rating: 4, 
-        text: "The stars at night were a revelation!",
-        author: "Ann Dabramov",
-        date: "2018-07-23T19:44Z"
-    },
-    {
-        id: 5,
-        campsiteId: 1,
-        rating: 4, 
-        text: "The campground was beautiful, but the bugs could bite sometimes.",
-        author: "Brennen Ech",
-        date: "2017-06-17T03:33Z"
-    },
-    {
-        id: 6,
-        campsiteId: 1,
-        rating: 5, 
-        text: "I caught a world-record-breaking trout here on my last visit.",
-        author: "McKenzie Sebastian",
-        date: "2019-02-18T18:12Z"
-    },
-    {
-        id: 7,
-        campsiteId: 1,
-        rating: 5, 
-        text: "A wonderful place to reconnect with nature.",
-        author: "Jordan Runn",
-        date: "2019-08-04T20:11Z"
-    },
-    {
-        id: 8,
-        campsiteId: 1,
-        rating: 4, 
-        text: "The stars at night were a revelation!",
-        author: "Ann Dabramov",
-        date: "2018-07-23T19:44Z"
-    },
-    {
-        id: 9,
-        campsiteId: 1,
-        rating: 5, 
-        text: "What a magnificent view!",
-        author: "Tinus Lorvaldes",
-        date: "2018-10-25T16:30Z"
-    },
-    {
-        id: 10,
-        campsiteId: 2,
-        rating: 5, 
-        text: "I caught a world-record-breaking trout here on my last visit.",
-        author: "McKenzie Sebastian",
-        date: "2019-02-18T18:12Z"
-    },
-    {
-        id: 11,
-        campsiteId: 2,
-        rating: 5, 
-        text: "A wonderful place to reconnect with nature.",
-        author: "Jordan Runn",
-        date: "2019-08-04T20:11Z"
-    },
-    {
-        id: 12,
-        campsiteId: 2,
-        rating: 4, 
-        text: "The stars at night were a revelation!",
-        author: "Ann Dabramov",
-        date: "2018-07-23T19:44Z"
-    },
-    {
-        id: 13,
-        campsiteId: 2,
-        rating: 5, 
-        text: "What a magnificent view!",
-        author: "Tinus Lorvaldes",
-        date: "2018-10-25T16:30Z"
-    },
-    {
-        id: 14,
-        campsiteId: 2,
-        rating: 4, 
-        text: "The campground was beautiful, but the bugs could bite sometimes.",
-        author: "Brennen Ech",
-        date: "2017-06-17T03:33Z"
-    },
-    {
-        id: 15,
-        campsiteId: 3,
-        rating: 5, 
-        text: "A wonderful place to reconnect with nature.",
-        author: "Jordan Runn",
-        date: "2019-08-04T20:11Z"
-    },
-    {
-        id: 16,
-        campsiteId: 3,
-        rating: 4, 
-        text: "The stars at night were a revelation!",
-        author: "Ann Dabramov",
-        date: "2018-07-23T19:44Z"
-    },
-    {
-        id: 17,
-        campsiteId: 3,
-        rating: 5, 
-        text: "What a magnificent view!",
-        author: "Tinus Lorvaldes",
-        date: "2018-10-25T16:30Z"
-    },
-    {
-        id: 18,
-        campsiteId: 3,
-        rating: 4, 
-        text: "The campground was beautiful, but the bugs could bite sometimes.",
-        author: "Brennen Ech",
-        date: "2017-06-17T03:33Z"
-    },
-    {
-        id: 19,
-        campsiteId: 3,
-        rating: 5, 
-        text: "I caught a world-record-breaking trout here on my last visit.",
-        author: "McKenzie Sebastian",
-        date: "2019-02-18T18:12Z"
-    }
-]
+export const COMMENTS = [
+  {
+    id: 0,
+    campsiteId: 0,
+    rating: 5,
+    text: "What a magnificent view!",
+    author: "Tinus Lorvaldes",
+    date: "2018-10-25T16:30Z",
+  },
+  {
+    id: 1,
+    campsiteId: 0,
+    rating: 4,
+    text: "The campground was beautiful, but the bugs could bite sometimes.",
+    author: "Brennen Ech",
+    date: "2017-06-17T03:33Z",
+  },
+  {
+    id: 2,
+    campsiteId: 0,
+    rating: 5,
+    text: "I caught a world-record-breaking trout here on my last visit.",
+    author: "McKenzie Sebastian",
+    date: "2019-02-18T18:12Z",
+  },
+  {
+    id: 3,
+    campsiteId: 0,
+    rating: 5,
+    text: "A wonderful place to reconnect with nature.",
+    author: "Jordan Runn",
+    date: "2019-08-04T20:11Z",
+  },
+  {
+    id: 4,
+    campsiteId: 0,
+    rating: 4,
+    text: "The stars at night were a revelation!",
+    author: "Ann Dabramov",
+    date: "2018-07-23T19:44Z",
+  },
+  {
+    id: 5,
+    campsiteId: 1,
+    rating: 4,
+    text: "You miss 100% of the shots you don’t take. - Wayne Gretzky",
+    author: "Michael Scott",
+    date: "2017-06-17T03:33Z",
+  },
+  {
+    id: 6,
+    campsiteId: 1,
+    rating: 5,
+    text:
+      "Whenever I'm about to do something, I think 'Would an idiot do that?' And if they would, I do not do that thing.",
+    author: "Dwight Schrute",
+    date: "2019-02-18T18:12Z",
+  },
+  {
+    id: 7,
+    campsiteId: 1,
+    rating: 5,
+    text: "Boy Have You Lost Your Mind, Cause I'll Help You Find It.",
+    author: "Stanley Hudson",
+    date: "2019-08-04T20:11Z",
+  },
+  {
+    id: 8,
+    campsiteId: 1,
+    rating: 4,
+    text:
+      "I Just Want To Eat, Which I Realize Is A Lot To Ask, At A Dinner Party.",
+    author: "Pam Halpert",
+    date: "2018-07-23T19:44Z",
+  },
+  {
+    id: 9,
+    campsiteId: 1,
+    rating: 5,
+    text: "That's Really Not The Trend In Vampires Right Now",
+    author: "Ryan Howard",
+    date: "2018-10-25T16:30Z",
+  },
+  {
+    id: 10,
+    campsiteId: 2,
+    rating: 5,
+    text:
+      "We’re Building Something, Here, Detective, We’re Building It From Scratch. All The Pieces Matter.",
+    author: "Lester Freamon",
+    date: "2019-02-18T18:12Z",
+  },
+  {
+    id: 11,
+    campsiteId: 2,
+    rating: 5,
+    text: "You Come At The King, You Best Not Miss.",
+    author: "Omar Little",
+    date: "2019-08-04T20:11Z",
+  },
+  {
+    id: 12,
+    campsiteId: 2,
+    rating: 4,
+    text:
+      "Well, You Know What They Say: ‘Stupid Criminal Make Stupid Cops.’ I’m Proud To Be Chasing This Guy",
+    author: "Jimmy McNulty",
+    date: "2018-07-23T19:44Z",
+  },
+  {
+    id: 13,
+    campsiteId: 2,
+    rating: 5,
+    text:
+      "You Know The Difference Between Me And You? I Bleed Red And You Bleed Green",
+    author: "Avon Barksdale",
+    date: "2018-10-25T16:30Z",
+  },
+  {
+    id: 14,
+    campsiteId: 2,
+    rating: 4,
+    text: "We Ain’t Gotta Dream No More, Man.",
+    author: "Russell 'Stringer' Bell",
+    date: "2017-06-17T03:33Z",
+  },
+  {
+    id: 15,
+    campsiteId: 3,
+    rating: 5,
+    text: "Logic is the beginning of wisdom, not the end.",
+    author: "Spock",
+    date: "2019-08-04T20:11Z",
+  },
+  {
+    id: 16,
+    campsiteId: 3,
+    rating: 4,
+    text:
+      "Compassion: that's the one things no machine ever had. Maybe it's the one thing that keeps men ahead of them.",
+    author: "Dr. McCoy",
+    date: "2018-07-23T19:44Z",
+  },
+  {
+    id: 17,
+    campsiteId: 3,
+    rating: 5,
+    text:
+      "It is possible to commit no errors and still lose. That is not a weakness. That is life.",
+    author: "Jean-Luc Picard",
+    date: "2018-10-25T16:30Z",
+  },
+  {
+    id: 18,
+    campsiteId: 3,
+    rating: 4,
+    text: "To boldly go where no man has gone before.",
+    author: "James T. Kirk",
+    date: "2017-06-17T03:33Z",
+  },
+  {
+    id: 19,
+    campsiteId: 3,
+    rating: 5,
+    text: "I canna' change the laws of physics.",
+    author: 'Montgomery "Scotty" Scott',
+    date: "2019-02-18T18:12Z",
+  },
+];
