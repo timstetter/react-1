@@ -22,16 +22,16 @@ function Contact(props) {
         <div className="col-sm-4">
           <h5>Our Address</h5>
           <address>
-            1 Nucamp Way
+            12345 Main St.
             <br />
-            Seattle, WA 98001
+            Auburn Hills, MI 48326
             <br />
             U.S.A.
           </address>
         </div>
         <div className="col">
-          <a role="button" className="btn btn-link" href="tel:+12065551234">
-            <i className="fa fa-phone" /> 1-206-555-1234
+          <a role="button" className="btn btn-link" href="tel:+12485551234">
+            <i className="fa fa-phone" /> 1-248-555-1234
           </a>
           <br />
           <a
