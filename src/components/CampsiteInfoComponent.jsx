@@ -65,7 +65,7 @@ class CommentForm extends Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Button
           onClick={this.toggleModal}
           outline
@@ -73,7 +73,14 @@ class CommentForm extends Component {
           Submit Comment
         </Button>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-          <ModalHeader toggle={this.toggleModal}>Submit Comments</ModalHeader>
+          <ModalHeader
+            style={{
+              backgroundColor: "#901CAD",
+              color: "white",
+            }}
+            toggle={this.toggleModal}>
+            Submit Comments
+          </ModalHeader>
           <ModalBody>
             <LocalForm onSubmit={(values) => this.handleSubmit(values)}>
               <div className="form-group">
@@ -157,7 +164,7 @@ class CommentForm extends Component {
             </LocalForm>
           </ModalBody>
         </Modal>
-      </div>
+      </React.Fragment>
     );
   }
 }
