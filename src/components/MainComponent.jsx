@@ -15,6 +15,8 @@ import {
   fetchCampsites,
   fetchComments,
   fetchPromotions,
+  fetchPartners,
+  postFeedback,
 } from "../redux/ActionCreators";
 
 const mapStateToProps = (state) => {
@@ -30,9 +32,28 @@ const mapDispatchToProps = {
   postComment: (campsiteId, rating, author, text) =>
     postComment(campsiteId, rating, author, text),
   fetchCampsites: () => fetchCampsites(),
+  postFeedback: (
+    firstName,
+    lastName,
+    phoneNum,
+    email,
+    agree,
+    contactType,
+    feedback
+  ) =>
+    postFeedback(
+      firstName,
+      lastName,
+      phoneNum,
+      email,
+      agree,
+      contactType,
+      feedback
+    ),
   resetFeedbackForm: () => actions.reset("feedbackForm"),
   fetchComments: () => fetchComments(),
   fetchPromotions: () => fetchPromotions(),
+  fetchPartners: () => fetchPartners(),
 };
 
 class Main extends Component {
@@ -40,6 +61,7 @@ class Main extends Component {
     this.props.fetchCampsites();
     this.props.fetchComments();
     this.props.fetchPromotions();
+    this.props.fetchPartners();
   }
 
   render() {
@@ -60,7 +82,13 @@ class Main extends Component {
           }
           promotionLoading={this.props.promotions.isLoading}
           promotionErrMess={this.props.promotions.errMess}
-          partner={this.props.partners.filter((partner) => partner.featured)[0]}
+          partner={
+            this.props.partners.partners.filter(
+              (partner) => partner.featured
+            )[0]
+          }
+          partnerLoading={this.props.partners.isLoading}
+          partnerErrMess={this.props.partners.errMess}
         />
       );
     };
@@ -103,7 +131,10 @@ class Main extends Component {
                 exact
                 path="/contactus"
                 render={() => (
-                  <Contact resetFeedbackForm={this.props.resetFeedbackForm} />
+                  <Contact
+                    resetFeedbackForm={this.props.resetFeedbackForm}
+                    postFeedback={this.props.postFeedback}
+                  />
                 )}
               />
               <Route
